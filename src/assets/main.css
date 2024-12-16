@@ -1,0 +1,176 @@
+@import './base.css';
+
+.texto-centrado {
+  text-align: center;
+}
+
+.navbar {
+  background-color: rgba(243, 238, 248, 0.336);
+}
+
+.navbar > .container-fluid {
+  justify-content: flex-start;
+}
+
+.form-control {
+  width: 50%;
+}
+
+.form-libros {
+  width: fit-content;
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid transparent;
+  border-radius: 2%;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.avatar {
+  width: 70%;
+  margin-left: 20%;
+}
+
+.tituloForm {
+  font-weight: bold;
+}
+
+.columna {
+  align-self: center;
+  border: solid rgb(253, 251, 251);
+  border-radius: 20px;
+  margin: 1em;
+  padding: 1em;
+  margin: 0 auto;
+}
+
+.columna img {
+  max-width: 60%;
+}
+
+.columna a {
+  color: white;
+}
+
+ul {
+  list-style: none;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: center;
+}
+
+li button {
+  margin: 10px;
+  color: transparent;
+}
+
+li svg {
+  margin: 10px;
+}
+
+.container .card {
+  border: 0 transparent;
+  background: transparent;
+  box-shadow: none;
+}
+
+.container .card-title {
+  max-width: 190px;
+  margin: 0 auto;
+}
+
+.container .card img {
+  max-width: 180px;
+  margin: 0 auto;
+  transition: transform 0.2s ease;
+}
+
+.container .card img:hover {
+  transform: scale(1.05);
+}
+
+.librosContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  margin-top: 2em;
+}
+
+.unchecked {
+  float: right;
+}
+
+.unchecked:hover {
+  background-image: url(../img/check-circle-fill.svg);
+}
+
+.checked {
+  float: right;
+  image-rendering: url(../img/check-circle-fill.svg);
+}
+
+.card-checked {
+  flex: 1 1 auto;
+  padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+  color: rgb(46, 117, 13);
+}
+
+.total {
+  margin-top: 2em;
+}
+
+.card {
+  border: 0 transparent;
+  background: #fff;
+  box-shadow: 0px 16px 24px 0px rgba(0, 0, 0, 0.14);
+}
+
+.metricas {
+  background-color: rgba(243, 238, 248, 0.336);
+  padding: 2em;
+  border: transparent;
+  border-radius: 2em;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar a:hover {
+  color: blue;
+}
+
+.carga a,
+.columna a {
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  border-top: solid rgba(0, 0, 0, 0.199);
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition:
+    opacity 0.7s ease,
+    background-color 0.5s;
+}
+
+.data {
+  width: 30%;
+}
+
+.imgMetricas {
+  width: 20%;
+}
+
+.badge {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.avance {
+  color: green;
+}
